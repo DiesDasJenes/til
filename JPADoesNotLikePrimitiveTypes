@@ -1,0 +1,5 @@
+Today i learned that JPA does not work with primitve types.
+
+The error was that we used boolean instead of Boolean. The exception message was the following:
+
+"org.springframework.orm.jpa.JpaSystemException: Null value was assigned to a property [class ...] of primitive type setter"
